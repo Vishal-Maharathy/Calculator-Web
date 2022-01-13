@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(98 98 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#structure{
+    position: relative;
+    height: 641px;
+    width: 333px;
+    padding: 4px;
+    margin-top: 28px;
+    border-radius: 10px;
+    background-color: rgb(31 31 31);
+}
+#display{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    margin-right: 10px;
+    height: 30%;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(66 66 66);
+    border-radius: 8px;
+}
+#text-area_always{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 530;
+    color: #949494;
+    height: 53px;
+    width: 94%;
+    /* background-color: red; */
+    margin-top: 7px;
+    margin-right: 10px;
+}
+#text-area{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 4vh;
+    font-family: sans-serif;
+    font-weight: 530;
+    color: whitesmoke;
+    height: 53px;
+    width: 94%;
+    /* background-color: red; */
+    margin-top: 8px;
+    margin-right: 10px;
+}
+#display-input{
+    color: white;
+    width: 70%;
+    margin-right: 31px;
+    background-color: transparent;
+    font-size: 5vh;
+    text-align: right;
+    border: none;
+}
+#buttons_struct{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    height: 63.5%;
+    width: 100%;
+    /* background-color: rgb(189, 171, 171); */
+    border-radius: 8px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 101%;
+    height: 17%;
+    /* border: black solid 1px; */
+    border-radius: 1px;
+}
+.buttons{
+    background-color: #2c2c2e;
+    border: black none 1px;
+    border-radius: 1px;
+}
+.buttons_nums{
+    background-color: #3a3a3a;
+    border: black none 1px;
+    border-radius: 1px;
+}
+.buttons_equal{
+    border: black none 1px;
+    border-radius: 1px;
+    background-color: rgb(130 196 203 / 62%);
+}
+.button_size{
+    color: #b9aaaa;
+    font-family: sans-serif;
+    width: 24.6%;
+    height: 115.3%;
+    border-radius: 6px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(80, 79, 80);
+    transition-duration: .1s;
+}
+button:active{
+    background-color: rgb(44, 43, 44);
+    transition-duration: .1s;
+}
+@keyframes gradient {
+	0% {
+		box-shadow: 0px 0px 7px -1px rgb(255, 0, 0);
+	}
+	25% {
+		box-shadow: 0px 0px 7px -1px rgb(247, 0, 255);
+	}
+    50% {
+		box-shadow: 0px 0px 7px -1px rgb(0, 204, 255);
+	}
+    75% {
+		box-shadow: 0px 0px 7px -1px rgb(0, 255, 13);
+	}
+	100% {
+		box-shadow: 0px 0px 7px -1px rgb(255, 217, 0);
+	}
+}
+
+.rgb{
+    box-shadow: 0px 0px 7px -1px rgb(234, 0, 255);
+    animation: gradient 15s alternate infinite;
+}
